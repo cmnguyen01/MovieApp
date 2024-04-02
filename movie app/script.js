@@ -3,6 +3,8 @@ const API_URL='https://api.themoviedb.org/3/movie/popular?api_key=a76ae961821c0b
 const IMG_path='https://image.tmdb.org/t/p/w1280'
 const SEARCH_URL='https://api.themoviedb.org/3/search/movie?api_key=a76ae961821c0bcc482ba790eb5ab428&query="'
 
+//get initial movies call
+getMovies(API_URL)
 //get form
 const form=document.getElementById('form')
 
